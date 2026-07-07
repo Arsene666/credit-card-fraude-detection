@@ -25,7 +25,7 @@ L'**accuracy** est écartée comme métrique de référence : un modèle prédis
 
 ### 2. Exploration des données (EDA)
 
-![Demo](rapports/figures/fraude_vs_legitime.png.png)
+![Demo](rapports/figures/fraude_vs_legitime.png)
 
 - Distribution des montants fortement asymétrique (moyenne 88 €, médiane 22 €, max 25 691 €) : quelques transactions extrêmes tirent la moyenne vers le haut.
 - Corrélations de Pearson avec la cible : V17, V14, V12 les plus fortement corrélées (linéairement). Amount et Time quasi nulles — ce qui n'exclut pas une relation non-linéaire.
